@@ -37,14 +37,12 @@
             //                        | ALT  | GUI  | LOWER|  SPACE |  | BSPC  | ENTER| RAISE | CTRL  |
 
             bindings = <
-&mt LEFT_CONTROL CAPSLOCK  &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                       &kp N6         &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS
+&mt LEFT_CONTROL CAPSLOCK  &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                       &kp N6         &kp N7  &kp N8     &kp N9   &kp N0    &kp ES_SQT
 &kp TAB                    &kp Q   &kp W   &kp E     &kp R      &kp T                                        &kp Y          &kp U   &kp I      &kp O    &kp P     &kp ENTER
 &lt 3 ESC                  &kp A   &kp S   &kp D     &kp F      &kp G                                        &kp H          &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT                  &kp Z   &kp X   &kp C     &kp V      &kp B   &out OUT_TOG    &tog 3               &kp N          &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                                           &kp LALT  &kp LMETA  &mo 2   &kp SPACE       &mt RIGHT_ALT SPACE  &kp BACKSPACE  &mo 1   &kp RCTRL
+                                           &kp LALT  &kp LMETA  &mo 3   &kp SPACE       &mt RIGHT_ALT SPACE  &kp BACKSPACE  &mo 1   &kp RCTRL
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
@@ -62,8 +60,6 @@
 &kp LSHIFT     &kp ES_LESS_THAN    &kp ES_RBRC        &kp ES_RIGHT_BRACKET  &kp ES_RPAR    &kp ES_DOUBLE_QUOTES  &bt BT_NXT    &bt BT_PRV  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp RIGHT_SHIFT
                                                       &trans                &trans         &trans                &trans        &trans      &trans       &trans     &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
@@ -76,32 +72,30 @@
 
             bindings = <
 &ext_power EP_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &trans     &trans    &trans           &trans            &trans             &trans
-&trans             &kp ES_N1     &kp ES_N2     &kp ES_N3     &kp ES_N4     &kp ES_N5                        &trans     &trans    &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH
+&trans             &kp ES_N1     &kp ES_N2     &kp ES_N3     &kp ES_N4     &kp ES_N5                        &trans     &trans    &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ES_QUESTION
 &kp TILDE          &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                        &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR          &kp RPAR           &kp UNDER
 &kp LSHIFT         &trans        &trans        &kp LPAR      &kp LBRC      &trans        &trans    &kp DEL  &kp RBRC   &kp RPAR  &kp KP_PLUS      &kp LBRC          &kp RBRC           &kp RSHFT
                                                &trans        &trans        &trans        &trans    &trans   &trans     &trans    &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         cl-Layer {
             bindings = <
-&trans  &trans            &trans               &trans      &trans            &trans                    &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &trans            &kp UP_ARROW         &kp DOLLAR  &trans            &trans                    &kp ES_EQUAL  &kp N7        &kp N8        &kp N9        &kp ES_PLUS   &trans
-&trans  &kp LEFT          &kp DOWN_ARROW       &kp RIGHT   &kp QUESTION      &trans                    &kp ES_ASTRK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ES_MINUS  &kp ES_DOT
-&trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &trans      &kp RS(NUMBER_2)  &trans  &trans    &trans  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_SLASH  &kp ES_GRAVE
-                                               &trans      &trans            &trans  &trans    &trans  &trans        &trans        &trans
+&trans  &trans            &trans               &trans      &trans            &trans                       &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans            &kp UP_ARROW         &kp DOLLAR  &trans            &trans                       &kp ES_EQUAL  &kp N7        &kp N8        &kp N9        &kp ES_PLUS   &kp QMARK
+&trans  &kp LEFT          &kp DOWN_ARROW       &kp RIGHT   &kp QUESTION      &trans                       &kp ES_ASTRK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ES_MINUS  &kp ES_DOT
+&trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &trans      &kp RS(NUMBER_2)  &trans  &trans    &kp ENTER  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_SLASH  &kp ES_GRAVE
+                                               &trans      &trans            &trans  &trans    &trans     &trans        &trans        &trans
             >;
         };
 
         Conf-layer {
             bindings = <
-&ext_power EP_TOG  &trans  &trans  &trans      &trans        &trans                                  &trans  &trans            &trans  &trans  &trans  &trans
-&trans             &trans  &trans  &trans      &trans        &trans                                  &trans  &trans            &trans  &trans  &trans  &trans
-&trans             &trans  &trans  &trans      &trans        &trans                                  &trans  &ext_power EP_ON  &trans  &trans  &trans  &trans
-&trans             &trans  &trans  &bt BT_CLR  &out OUT_USB  &out OUT_BLE  &bt BT_NXT    &bt BT_PRV  &trans  &trans            &trans  &trans  &trans  &trans
-                                   &trans      &trans        &trans        &trans        &trans      &trans  &trans            &trans
+&ext_power EP_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &trans  &trans            &trans  &trans  &trans  &trans
+&trans             &trans        &trans        &trans        &trans        &trans                                  &trans  &trans            &trans  &trans  &trans  &trans
+&trans             &trans        &trans        &trans        &trans        &trans                                  &trans  &ext_power EP_ON  &trans  &trans  &trans  &trans
+&trans             &trans        &trans        &bt BT_CLR    &out OUT_TOG  &out OUT_BLE  &bt BT_NXT    &bt BT_PRV  &trans  &trans            &trans  &trans  &trans  &trans
+                                               &trans        &trans        &trans        &trans        &trans      &trans  &trans            &trans
             >;
         };
     };
@@ -110,7 +104,7 @@
         compatible = "zmk,conditional-layers";
 
         conf {
-            if-layers = <1 2>;
+            if-layers = <1 3>;
             then-layer = <4>;
         };
     };
