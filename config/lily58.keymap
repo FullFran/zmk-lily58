@@ -73,10 +73,10 @@
             //                                     |      |       |      |       |  |         |      |       |       |
 
             bindings = <
-&ext_power EP_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &trans     &trans    &trans           &trans            &trans             &trans
-&trans             &trans        &trans        &trans        &trans        &trans                           &trans     &trans    &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH
-&kp TILDE          &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                        &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR          &kp RPAR           &kp UNDER
-&kp LSHIFT         &trans        &trans        &kp LPAR      &kp LBRC      &trans        &trans    &kp DEL  &kp RBRC   &kp RPAR  &kp KP_PLUS      &kp LBRC          &kp RBRC           &kp RSHFT
+&ext_power EP_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &trans     &trans    &trans           &trans                &trans                 &trans
+&trans             &trans        &trans        &trans        &trans        &trans                           &trans     &trans    &trans           &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp BSLH
+&kp TILDE          &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                        &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR              &kp RPAR               &kp UNDER
+&kp LSHIFT         &trans        &trans        &kp LPAR      &kp LBRC      &trans        &trans    &kp DEL  &kp RBRC   &kp RPAR  &kp KP_PLUS      &kp RA(SQT)           &kp RA(BACKSLASH)      &kp RSHFT
                                                &trans        &trans        &trans        &trans    &trans   &trans     &trans    &trans
             >;
 
