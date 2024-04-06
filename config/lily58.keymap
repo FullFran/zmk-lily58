@@ -76,7 +76,7 @@
 
             bindings = <
 &ext_power EP_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &trans     &trans    &trans           &trans            &trans             &trans
-&trans             &trans        &trans        &trans        &trans        &trans                           &trans     &trans    &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH
+&trans             &kp ES_N1     &kp ES_N2     &kp ES_N3     &kp ES_N4     &kp ES_N5                        &trans     &trans    &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH
 &kp TILDE          &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                        &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR          &kp RPAR           &kp UNDER
 &kp LSHIFT         &trans        &trans        &kp LPAR      &kp LBRC      &trans        &trans    &kp DEL  &kp RBRC   &kp RPAR  &kp KP_PLUS      &kp LBRC          &kp RBRC           &kp RSHFT
                                                &trans        &trans        &trans        &trans    &trans   &trans     &trans    &trans
@@ -89,19 +89,19 @@
             bindings = <
 &trans  &trans            &trans               &trans      &trans            &trans                    &trans        &trans        &trans        &trans        &trans        &trans
 &trans  &trans            &kp UP_ARROW         &kp DOLLAR  &trans            &trans                    &kp ES_EQUAL  &kp N7        &kp N8        &kp N9        &kp ES_PLUS   &trans
-&trans  &kp LEFT          &kp DOWN_ARROW       &kp RIGHT   &kp QUESTION      &trans                    &kp ES_ASTRK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ES_MINUS  &trans
-&trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &trans      &kp RS(NUMBER_2)  &trans  &trans    &trans  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_SLASH  &trans
+&trans  &kp LEFT          &kp DOWN_ARROW       &kp RIGHT   &kp QUESTION      &trans                    &kp ES_ASTRK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ES_MINUS  &kp ES_DOT
+&trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &trans      &kp RS(NUMBER_2)  &trans  &trans    &trans  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_SLASH  &kp ES_GRAVE
                                                &trans      &trans            &trans  &trans    &trans  &trans        &trans        &trans
             >;
         };
 
         Conf-layer {
             bindings = <
-&ext_power EP_TOG  &trans  &trans  &trans      &trans        &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans             &trans  &trans  &trans      &trans        &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans             &trans  &trans  &trans      &trans        &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans             &trans  &trans  &bt BT_CLR  &out OUT_USB  &out OUT_BLE  &bt BT_NXT    &bt BT_PRV  &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans      &trans        &trans        &trans        &trans      &trans  &trans  &trans
+&ext_power EP_TOG  &trans  &trans  &trans      &trans        &trans                                  &trans  &trans            &trans  &trans  &trans  &trans
+&trans             &trans  &trans  &trans      &trans        &trans                                  &trans  &trans            &trans  &trans  &trans  &trans
+&trans             &trans  &trans  &trans      &trans        &trans                                  &trans  &ext_power EP_ON  &trans  &trans  &trans  &trans
+&trans             &trans  &trans  &bt BT_CLR  &out OUT_USB  &out OUT_BLE  &bt BT_NXT    &bt BT_PRV  &trans  &trans            &trans  &trans  &trans  &trans
+                                   &trans      &trans        &trans        &trans        &trans      &trans  &trans            &trans
             >;
         };
     };
