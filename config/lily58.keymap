@@ -54,10 +54,10 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F12        &kp F1              &kp F2             &kp F3                &kp F4         &kp F5                                          &kp F6       &kp F7     &kp F8     &kp F9     &kp F10   &kp F11
-&kp GRAVE      &kp ES_EXCLAMATION  &kp ES_AT_SIGN     &kp ES_HASH           &kp ES_DOLLAR  &kp ES_PERCENT                                  &kp N6       &kp N7     &kp N8     &kp N9     &kp N0    &kp MINUS
-&mt LCTRL ESC  &kp ES_BACKSLASH    &kp ES_LEFT_BRACE  &kp ES_LEFT_BRACKET   &kp ES_LPAR    &kp ES_SQT                                      &kp LEFT     &kp DOWN   &kp UP     &kp RIGHT  &trans    &trans
-&kp LSHIFT     &kp ES_LESS_THAN    &kp ES_RBRC        &kp ES_RIGHT_BRACKET  &kp ES_RPAR    &kp ES_DOUBLE_QUOTES  &bt BT_NXT    &bt BT_PRV  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp RIGHT_SHIFT
+&kp F12        &kp F1              &kp F2             &kp F3                &kp F4         &kp F5                                          &kp F6       &kp F7     &kp F8     &kp F9     &kp F10              &kp F11
+&kp GRAVE      &kp ES_EXCLAMATION  &kp ES_AT_SIGN     &kp ES_HASH           &kp ES_DOLLAR  &kp ES_PERCENT                                  &kp K_COPY   &kp N7     &kp N8     &kp N9     &kp K_PASTE          &kp MINUS
+&mt LCTRL ESC  &kp ES_BACKSLASH    &kp ES_LEFT_BRACE  &kp ES_LEFT_BRACKET   &kp ES_LPAR    &kp ES_SQT                                      &kp LEFT     &kp DOWN   &kp UP     &kp RIGHT  &kp RIGHT_SHIFT      &trans
+&kp LSHIFT     &kp ES_LESS_THAN    &kp ES_RBRC        &kp ES_RIGHT_BRACKET  &kp ES_RPAR    &kp ES_DOUBLE_QUOTES  &bt BT_NXT    &bt BT_PRV  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT   &kp ES_GREATER_THAN  &kp RIGHT_SHIFT
                                                       &trans                &trans         &trans                &trans        &trans      &trans       &trans     &trans
             >;
         };
@@ -81,11 +81,11 @@
 
         cl-Layer {
             bindings = <
-&trans  &trans            &trans               &trans      &trans            &trans                       &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &trans            &kp UP_ARROW         &kp DOLLAR  &trans            &trans                       &kp ES_EQUAL  &kp N7        &kp N8        &kp N9        &kp ES_PLUS   &kp ES_QUESTION
-&trans  &kp LEFT          &kp DOWN_ARROW       &kp RIGHT   &kp QUESTION      &trans                       &kp ES_ASTRK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ES_MINUS  &kp ES_DOT
-&trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &trans      &kp RS(NUMBER_2)  &trans  &trans    &kp ENTER  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_SLASH  &kp ES_GRAVE
-                                               &trans      &trans            &trans  &trans    &trans     &trans        &trans        &trans
+&trans  &trans            &trans               &trans      &trans           &trans                       &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans            &kp UP_ARROW         &kp DOLLAR  &trans           &trans                       &kp ES_EQUAL  &kp N7        &kp N8        &kp N9        &kp ES_PLUS   &kp ES_QUESTION
+&trans  &kp LEFT          &kp DOWN_ARROW       &kp RIGHT   &kp QUESTION     &trans                       &kp ES_ASTRK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ES_MINUS  &kp ES_DOT
+&trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &kp K_COPY  &kp RS(K_PASTE)  &trans  &trans    &kp ENTER  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_SLASH  &kp ES_GRAVE
+                                               &trans      &trans           &trans  &trans    &trans     &trans        &trans        &trans
             >;
         };
 
