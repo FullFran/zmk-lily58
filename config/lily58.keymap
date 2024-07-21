@@ -62,7 +62,7 @@
             >;
         };
 
-        cl-Layer {
+        cl_Layer {
             bindings = <
 &trans  &trans            &trans               &trans        &trans            &trans                       &trans        &trans        &trans        &trans        &trans        &trans
 &trans  &trans            &kp UP_ARROW         &kp DOLLAR    &trans            &trans                       &kp ES_EQUAL  &kp N7        &kp N8        &kp N9        &kp ES_PLUS   &kp ES_QUESTION
