@@ -31,7 +31,22 @@
 
         redo {
             bindings = <&kp LC(LS(Z))>;
+            key-positions = <38 37 36>;
+        };
+
+        copy {
+            bindings = <&kp LC(ES_C)>;
             key-positions = <38 39>;
+        };
+
+        paste {
+            bindings = <&kp LC(ES_V)>;
+            key-positions = <39 40>;
+        };
+
+        cut {
+            bindings = <&kp LC(ES_X)>;
+            key-positions = <38 40>;
         };
     };
 
