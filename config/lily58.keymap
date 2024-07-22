@@ -23,6 +23,16 @@
             key-positions = <52 42 0>; // Press 52=LOWER, 42=[, 0=tilde
             bindings = <&bt BT_CLR>; // activate clear bluetooth bindings for current channel
         };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <37 38>;
+        };
+
+        redo {
+            bindings = <&kp LC(LS(Z))>;
+            key-positions = <38 39>;
+        };
     };
 
     keymap {
