@@ -48,6 +48,16 @@
             bindings = <&kp LC(ES_X)>;
             key-positions = <38 40>;
         };
+
+        save {
+            bindings = <&kp LC(ES_S)>;
+            key-positions = <26 28>;
+        };
+
+        select_all {
+            bindings = <&kp LC(ES_A)>;
+            key-positions = <25 28>;
+        };
     };
 
     keymap {
