@@ -73,6 +73,11 @@
             bindings = <&to 4>;
             key-positions = <55 56>;
         };
+
+        default-layer {
+            bindings = <&to 0>;
+            key-positions = <57 56>;
+        };
     };
 
     keymap {
@@ -141,10 +146,10 @@
             //                                     |      |       |      |       |  |         |      |       |       |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp J   &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans        &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &mmv MOVE_UP  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp J   &trans  &trans        &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans        &trans  &trans  &trans
                         &trans  &trans  &mo 0   &trans    &trans  &trans  &trans  &trans
             >;
         };
