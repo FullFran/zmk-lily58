@@ -48,9 +48,7 @@ To use this keymap configuration, clone the repository and flash the appropriate
 
 For any issues or questions, feel free to open an issue or contribute to the repository.
 
-<p align="center">
-  <img src="https://your-repository-url/footer-image.png" alt="Footer" width="300"/>
-</p>
+
 
 <p align="center">
   <a href="https://github.com/your-username/your-repository/issues">Report an Issue</a> |
