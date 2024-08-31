@@ -1,8 +1,5 @@
 # Lily58 Keymap Configuration
 
-<p align="center">
-  <img src="https://your-repository-url/logo.png" alt="Lily58 Logo" width="200"/>
-</p>
 
 <p align="center">
   This repository contains the ZMK configuration for the Lily58 keyboard. Below are the layers configured along with their corresponding keymap images.
