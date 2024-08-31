@@ -10,7 +10,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 
 / {
@@ -142,11 +141,11 @@
             //                                     |      |       |      |       |  |         |      |       |       |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans          &trans          &trans           &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans          &mmv MOVE_UP    &mkp MCLK        &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                       &kp J   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans          &trans          &trans           &trans     &trans
-                        &trans  &trans  &mo 0   &trans    &mkp LCLK  &trans  &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp J   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &mo 0   &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
