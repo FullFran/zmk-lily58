@@ -11,6 +11,8 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <behaviors/mouse_keys.dtsi>
+
 
 / {
     // Combo keys are a way to combine multiple keypresses to output a different key.
