@@ -63,6 +63,11 @@
             bindings = <&to 3>;
             key-positions = <52 55>;
         };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <28 31>;
+        };
     };
 
     behaviors {
