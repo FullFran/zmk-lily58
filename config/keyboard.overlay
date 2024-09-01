@@ -1,5 +1,3 @@
 &mouse {
     compatible = "zmk,mouse";
-    move_unit = <5>;
-    scroll_unit = <1>;
 };
