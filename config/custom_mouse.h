@@ -9,6 +9,6 @@
 #define SCROLL_LEFT SCROLL_X(-U_MOUSE_SCROLL_MAX)
 #define SCROLL_RIGHT SCROLL_X(U_MOUSE_SCROLL_MAX)
 
-&mwh {
+&msc {
   time-to-max-speed-ms = <500>;                 /* <--- How long time until max speed is reached */
 };
