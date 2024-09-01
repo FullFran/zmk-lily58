@@ -14,6 +14,7 @@
 // mouse features
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
+#include "custom_mouse.h"
 
 / {
     // Combo keys are a way to combine multiple keypresses to output a different key.
