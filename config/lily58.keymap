@@ -70,7 +70,7 @@
         };
 
         conf-layer {
-            bindings = <&mo 3>;
+            bindings = <&to 3>;
             key-positions = <52 55>;
         };
     };
