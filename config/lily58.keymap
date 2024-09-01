@@ -54,19 +54,9 @@
             key-positions = <26 28>;
         };
 
-        select_all {
-            bindings = <&kp LC(ES_A)>;
-            key-positions = <25 28>;
-        };
-
         Caps-lock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <36 49>;
-        };
-
-        find {
-            bindings = <&kp RC(ES_F)>;
-            key-positions = <27 28>;
         };
 
         conf-layer {
