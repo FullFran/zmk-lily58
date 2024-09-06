@@ -29,11 +29,6 @@
             key-positions = <37 38>;
         };
 
-        redo {
-            bindings = <&kp LC(LS(Z))>;
-            key-positions = <38 37 36>;
-        };
-
         copy {
             bindings = <&kp LC(ES_C)>;
             key-positions = <38 39>;
@@ -47,11 +42,6 @@
         cut {
             bindings = <&kp LC(ES_X)>;
             key-positions = <38 40>;
-        };
-
-        save {
-            bindings = <&kp LC(ES_S)>;
-            key-positions = <26 28>;
         };
 
         Caps-lock {
