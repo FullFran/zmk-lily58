@@ -58,6 +58,11 @@
             bindings = <&caps_word>;
             key-positions = <28 31>;
         };
+
+        Esc {
+            bindings = <&kp ESC>;
+            key-positions = <14 15>;
+        };
     };
 
     behaviors {
