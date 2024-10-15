@@ -15,9 +15,9 @@
 // Define the number of layers
 
 #define LAYER_BASE 0
-#define LAYER_RAISE 1
-#define LAYER_LOWER 2
-#define LAYER_GAMING 3
+#define LAYER_RAISE 2
+#define LAYER_LOWER 3
+#define LAYER_GAMING 1
 #define LAYER_CONF 4
 #define LAYER_NAV 5
 
