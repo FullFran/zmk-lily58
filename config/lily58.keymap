@@ -126,7 +126,7 @@
 &mt LEFT_CONTROL CAPSLOCK  &kp N1            &kp N2           &kp N3            &kp N4             &kp N5                                 &kp N6       &kp N7               &kp N8              &kp N9          &kp N0                    &kp BACKSPACE
 &kp TAB                    &kp Q             &kp W            &kp E             &kp R              &kp T                                  &kp Y        &kp U                &kp I               &kp O           &kp P                     &kp ENTER
 &lt 2 ESC                  &ht_modL LMETA A  &ht_modL LALT S  &ht_modL LCTRL D  &ht_modL LSHIFT F  &kp G                                  &kp H        &ht_hrR RSHFT J      &ht_hrR RCTRL ES_K  &ht_hrR RALT L  &ht_hrR RMETA ES_N_TILDE  &lt 1 APOS
-&kp LSHFT                  &kp Z             &kp X            &kp C             &kp V              &kp B      &to 3        &tog 2         &kp N        &kp M                &kp COMMA           &kp DOT         &kp ES_MINUS              &kp RSHFT
+&kp LSHFT                  &kp Z             &kp X            &kp C             &kp V              &kp B      &tog 3       &tog 2         &kp N        &kp M                &kp COMMA           &kp DOT         &kp ES_MINUS              &kp RSHFT
                                                               &kp LALT          &kp LMETA          &lt 2 TAB  &kp SPACE    &kp BACKSPACE  &lt 1 ENTER  &mt RIGHT_ALT SPACE  &kp RCTRL
             >;
         };
@@ -163,7 +163,7 @@
 &mt LEFT_CONTROL CAPSLOCK  &kp N1        &kp N2  &kp N3    &kp N4     &kp N5                                         &kp N6               &kp N7               &kp N8     &kp N9   &kp N0              &kp BACKSPACE
 &kp TAB                    &kp Q         &kp W   &kp E     &kp R      &kp T                                          &kp Y                &kp U                &kp I      &kp O    &kp P               &kp ENTER
 &lt 2 ESC                  &kp A         &kp S   &kp D     &kp F      &kp G                                          &kp H                &kp J                &kp K      &kp L    &kp ES_N_TILDE      &lt 1 APOS
-&kp LSHFT                  &mt LSHIFT Z  &kp X   &kp C     &kp V      &kp B              &to 0        &tog 2         &kp N                &kp M                &kp COMMA  &kp DOT  &mt RSHFT ES_MINUS  &kp RSHFT
+&kp LSHFT                  &mt LSHIFT Z  &kp X   &kp C     &kp V      &kp B              &tog 0       &tog 2         &kp N                &kp M                &kp COMMA  &kp DOT  &mt RSHFT ES_MINUS  &kp RSHFT
                                                  &kp LALT  &kp LMETA  &gaming_mod 2 TAB  &kp SPACE    &kp BACKSPACE  &gaming_mod 1 ENTER  &mt RIGHT_ALT ENTER  &kp RCTRL
             >;
         };
