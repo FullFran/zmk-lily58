@@ -160,11 +160,11 @@
 
         lower_layer {
             bindings = <
-&trans  &trans            &trans               &trans      &trans                    &trans                    &trans        &trans                   &trans        &trans        &trans        &trans
-&trans  &trans            &kp UP_ARROW         &kp DOLLAR  &trans                    &trans                    &kp ES_EQUAL  &kp N7                   &kp N8        &kp N9        &kp ES_PLUS   &kp ES_QUESTION
-&trans  &kp LEFT          &kp DOWN_ARROW       &kp RIGHT   &ht_modL LSHIFT ES_GRAVE  &trans                    &kp ES_ASTRK  &ht_hrR RSHIFT NUMBER_4  &kp N5        &kp NUMBER_6  &kp ES_MINUS  &kp ES_DOT
-&trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &trans      &ht_modL RALT ES_DOT      &trans  &kp F4    &to 0   &kp N0        &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp ES_SLASH  &kp ES_GRAVE
-                                               &trans      &trans                    &trans  &trans    &trans  &trans        &mo 3                    &trans
+&kp F12  &kp F1            &kp F2               &kp F3      &kp F4                    &kp F5                    &trans        &trans                   &trans        &trans        &trans        &trans
+&trans   &trans            &kp UP_ARROW         &kp DOLLAR  &trans                    &trans                    &kp ES_EQUAL  &kp N7                   &kp N8        &kp N9        &kp ES_PLUS   &kp ES_QUESTION
+&trans   &kp LEFT          &kp DOWN_ARROW       &kp RIGHT   &ht_modL LSHIFT ES_GRAVE  &trans                    &kp ES_ASTRK  &ht_hrR RSHIFT NUMBER_4  &kp N5        &kp NUMBER_6  &kp ES_MINUS  &kp ES_DOT
+&trans   &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &trans      &ht_modL RALT ES_DOT      &trans  &kp F4    &to 0   &kp N0        &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp ES_SLASH  &kp ES_GRAVE
+                                                &trans      &trans                    &trans  &trans    &trans  &trans        &mo 3                    &trans
             >;
         };
 
