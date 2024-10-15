@@ -125,9 +125,19 @@
             bindings = <
 &mt LEFT_CONTROL CAPSLOCK  &kp N1            &kp N2           &kp N3            &kp N4             &kp N5                                 &kp N6       &kp N7               &kp N8              &kp N9          &kp N0                    &kp BACKSPACE
 &kp TAB                    &kp Q             &kp W            &kp E             &kp R              &kp T                                  &kp Y        &kp U                &kp I               &kp O           &kp P                     &kp ENTER
-&lt 2 ESC                  &ht_modL LMETA A  &ht_modL LALT S  &ht_modL LCTRL D  &ht_modL LSHIFT F  &kp G                                  &kp H        &ht_hrR RSHFT J      &ht_hrR RCTRL ES_K  &ht_hrR RALT L  &ht_hrR RMETA ES_N_TILDE  &lt 1 APOS
-&kp LSHFT                  &kp Z             &kp X            &kp C             &kp V              &kp B      &tog 3       &tog 2         &kp N        &kp M                &kp COMMA           &kp DOT         &kp ES_MINUS              &kp RSHFT
-                                                              &kp LALT          &kp LMETA          &lt 2 TAB  &kp SPACE    &kp BACKSPACE  &lt 1 ENTER  &mt RIGHT_ALT SPACE  &kp RCTRL
+&lt 3 ESC                  &ht_modL LMETA A  &ht_modL LALT S  &ht_modL LCTRL D  &ht_modL LSHIFT F  &kp G                                  &kp H        &ht_hrR RSHFT J      &ht_hrR RCTRL ES_K  &ht_hrR RALT L  &ht_hrR RMETA ES_N_TILDE  &lt 2 APOS
+&kp LSHFT                  &kp Z             &kp X            &kp C             &kp V              &kp B      &tog 1       &tog 3         &kp N        &kp M                &kp COMMA           &kp DOT         &kp ES_MINUS              &kp RSHFT
+                                                              &kp LALT          &kp LMETA          &lt 3 TAB  &kp SPACE    &kp BACKSPACE  &lt 2 ENTER  &mt RIGHT_ALT SPACE  &kp RCTRL
+            >;
+        };
+
+        GAMING_layer {
+            bindings = <
+&mt LEFT_CONTROL CAPSLOCK  &kp N1        &kp N2  &kp N3    &kp N4     &kp N5                                         &kp N6               &kp N7               &kp N8     &kp N9   &kp N0              &kp BACKSPACE
+&kp TAB                    &kp Q         &kp W   &kp E     &kp R      &kp T                                          &kp Y                &kp U                &kp I      &kp O    &kp P               &kp ENTER
+&lt 3 ESC                  &kp A         &kp S   &kp D     &kp F      &kp G                                          &kp H                &kp J                &kp K      &kp L    &kp ES_N_TILDE      &lt 2 APOS
+&kp LSHFT                  &mt LSHIFT Z  &kp X   &kp C     &kp V      &kp B              &tog 0       &tog 3         &kp N                &kp M                &kp COMMA  &kp DOT  &mt RSHFT ES_MINUS  &kp RSHFT
+                                                 &kp LALT  &kp LMETA  &gaming_mod 3 TAB  &kp SPACE    &kp BACKSPACE  &gaming_mod 2 ENTER  &mt RIGHT_ALT ENTER  &kp RCTRL
             >;
         };
 
@@ -154,25 +164,15 @@
 &trans  &trans            &kp UP_ARROW         &kp DOLLAR  &trans                    &trans                    &kp ES_EQUAL  &kp N7                   &kp N8        &kp N9        &kp ES_PLUS   &kp ES_QUESTION
 &trans  &kp LEFT          &kp DOWN_ARROW       &kp RIGHT   &ht_modL LSHIFT ES_GRAVE  &trans                    &kp ES_ASTRK  &ht_hrR RSHIFT NUMBER_4  &kp N5        &kp NUMBER_6  &kp ES_MINUS  &kp ES_DOT
 &trans  &kp ES_LESS_THAN  &kp ES_GREATER_THAN  &trans      &ht_modL RALT ES_DOT      &trans  &kp F4    &to 0   &kp N0        &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp ES_SLASH  &kp ES_GRAVE
-                                               &trans      &trans                    &trans  &trans    &trans  &trans        &mo 2                    &trans
-            >;
-        };
-
-        GAMING_layer {
-            bindings = <
-&mt LEFT_CONTROL CAPSLOCK  &kp N1        &kp N2  &kp N3    &kp N4     &kp N5                                         &kp N6               &kp N7               &kp N8     &kp N9   &kp N0              &kp BACKSPACE
-&kp TAB                    &kp Q         &kp W   &kp E     &kp R      &kp T                                          &kp Y                &kp U                &kp I      &kp O    &kp P               &kp ENTER
-&lt 2 ESC                  &kp A         &kp S   &kp D     &kp F      &kp G                                          &kp H                &kp J                &kp K      &kp L    &kp ES_N_TILDE      &lt 1 APOS
-&kp LSHFT                  &mt LSHIFT Z  &kp X   &kp C     &kp V      &kp B              &tog 0       &tog 2         &kp N                &kp M                &kp COMMA  &kp DOT  &mt RSHFT ES_MINUS  &kp RSHFT
-                                                 &kp LALT  &kp LMETA  &gaming_mod 2 TAB  &kp SPACE    &kp BACKSPACE  &gaming_mod 1 ENTER  &mt RIGHT_ALT ENTER  &kp RCTRL
+                                               &trans      &trans                    &trans  &trans    &trans  &trans        &mo 3                    &trans
             >;
         };
 
         Conf-layer {
             bindings = <
 &ext_power EP_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3     &bt BT_SEL 4                            &trans     &trans            &trans  &trans  &trans  &trans
-&trans             &to 2         &trans        &trans             &to 0            &trans                                  &trans     &soft_off         &trans  &trans  &trans  &trans
-&trans             &trans        &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &to 3                                   &soft_off  &ext_power EP_ON  &trans  &trans  &trans  &trans
+&trans             &to 3         &trans        &trans             &to 0            &trans                                  &trans     &soft_off         &trans  &trans  &trans  &trans
+&trans             &trans        &kp C_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &to 1                                   &soft_off  &ext_power EP_ON  &trans  &trans  &trans  &trans
 &trans             &trans        &trans        &bt BT_CLR         &out OUT_TOG     &out OUT_BLE  &bt BT_NXT    &bt BT_PRV  &trans     &trans            &trans  &trans  &trans  &trans
                                                &trans             &trans           &trans        &trans        &trans      &trans     &trans            &trans
             >;
