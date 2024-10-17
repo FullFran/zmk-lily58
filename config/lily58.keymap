@@ -83,6 +83,36 @@
             bindings = <&kp ES_ACUTE>;
             key-positions = <20 21>;
         };
+
+        G4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <29 17>;
+            layers = <1>;
+        };
+
+        G3 {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <28 16>;
+            layers = <1>;
+        };
+
+        G2 {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <15 27>;
+            layers = <1>;
+        };
+
+        G1 {
+            bindings = <&kp N1>;
+            key-positions = <14 26>;
+            layers = <1>;
+        };
+
+        G5 {
+            bindings = <&kp NUMBER_5>;
+            key-positions = <13 25>;
+            layers = <1>;
+        };
     };
 
     behaviors {
