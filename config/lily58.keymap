@@ -139,7 +139,7 @@
         gaming_mod: gaming_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "GAMING_MOD";
-            bindings = <&mo>, <&kp>;
+            bindings = <&kp>, <&sl>;
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
@@ -169,11 +169,11 @@
 
         GAMING_layer {
             bindings = <
-&mt LEFT_CONTROL CAPSLOCK  &kp N1       &kp N2  &kp N3    &kp N4     &kp N5                                       &kp N6               &kp N7               &kp N8     &kp N9   &kp N0              &kp BACKSPACE
-&kp TAB                    &kp TAB      &kp Q   &kp W     &kp E      &kp R                                        &kp Y                &kp U                &kp I      &kp O    &kp P               &kp ENTER
-&lt 3 ESC                  &kp LSHFT    &kp A   &kp S     &kp D      &kp F                                        &kp H                &kp J                &kp K      &kp L    &kp ES_N_TILDE      &lt 2 APOS
-&kp LSHFT                  &mt LCTRL M  &kp Z   &kp X     &kp C      &kp V            &to 0        &tog 3         &kp N                &kp M                &kp COMMA  &kp DOT  &mt RSHFT ES_MINUS  &kp RSHFT
-                                                &kp LALT  &kp LMETA  &gaming_mod 6 B  &kp SPACE    &kp BACKSPACE  &gaming_mod 2 ENTER  &mt RIGHT_ALT ENTER  &kp RCTRL
+&mt LEFT_CONTROL CAPSLOCK  &kp N1       &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                                 &kp N6               &kp N7               &kp N8     &kp N9   &kp N0              &kp BACKSPACE
+&kp TAB                    &kp TAB      &kp Q   &kp W         &kp E         &kp R                                        &kp Y                &kp U                &kp I      &kp O    &kp P               &kp ENTER
+&lt 3 ESC                  &kp LSHFT    &kp A   &kp S         &kp D         &kp F                                        &kp H                &kp J                &kp K      &kp L    &kp ES_N_TILDE      &lt 2 APOS
+&kp LSHFT                  &mt LCTRL M  &kp Z   &kp X         &kp C         &kp V            &to 0        &tog 3         &kp N                &kp M                &kp COMMA  &kp DOT  &mt RSHFT ES_MINUS  &kp RSHFT
+                                                &kp LALT      &kp LMETA     &gaming_mod B 6  &kp SPACE    &kp BACKSPACE  &gaming_mod ENTER 0  &mt RIGHT_ALT ENTER  &kp RCTRL
             >;
         };
 
